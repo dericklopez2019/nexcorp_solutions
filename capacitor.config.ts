@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'nexcorp_solutions',
+  appId: 'com.example.appcrudproductosyclientes',
+  appName: 'NexCorp Solutions',
   webDir: 'www',
   server: {
     androidScheme: 'https'

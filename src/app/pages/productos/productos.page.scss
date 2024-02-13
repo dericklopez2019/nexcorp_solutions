@@ -1,0 +1,66 @@
+ion-card {
+  background-color: #ffffff;
+  height: 100%;
+
+}
+ion-card-header{
+  color: black;
+}
+ion-img{
+  transform: scale(0.6);
+ }
+.icono-nombre{
+  font-size: 1.5em;
+  color: burlywood;
+}
+
+.icono{
+  font-size: 1.2em;
+  color: red;
+}
+.icono-dinero{
+  font-size: 1.2em;
+  color: green;
+}
+.icono-existencia{
+  font-size: 1.2em;
+  color: black;
+}
+.nombre {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.texto{
+  font-size: 1.1em;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 480px) {
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 768px) {
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 992px) {
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

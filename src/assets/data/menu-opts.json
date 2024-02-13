@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "home-outline",
+    "name": "Inicio",
+    "redirectTo": "/home"
+  },
+  {
+    "icon": "people-outline",
+    "name": "Clientes",
+    "redirectTo": "/clientes"
+  },
+  {
+    "icon": "bag-outline",
+    "name": "Productos",
+    "redirectTo": "/productos"
+  }
+]
