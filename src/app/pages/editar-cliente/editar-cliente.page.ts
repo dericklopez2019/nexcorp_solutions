@@ -106,7 +106,7 @@ export class EditarClientePage implements OnInit {
     await alert.present();
     const { role } = await alert.onDidDismiss();
 
-    return role === 'acept';
+    return role === 'accept';
   }
 
   async mostrarMensaje(mensaje: string, color: string) {

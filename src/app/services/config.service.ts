@@ -12,7 +12,7 @@ export class ConfigService {
 }
 
 export const Env = {
-  host:'http://localhost:3000',
+  host:'https://nodemysql-production-0823.up.railway.app',
 
   url: {
     clientes:'/clientes',
